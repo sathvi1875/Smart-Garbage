@@ -37,7 +37,8 @@ String html_4 = R"=====(
  
 #include <ESP8266WiFi.h>
 
-char ssid[] = "MySpectrumWiFi98-2G";        // your network SSID (name) char pass[] = "watchglobal436";    // your network password
+char ssid[] = "";        // your network SSID (name) 
+char pass[] = "";    // your network password
 
 WiFiServer server(80);    //Port 80 is one of the most commonly used port numbers in the Transmission Control Protocol (TCP) suite. Any Web/HTTP client, such as a Web browser, uses port 80 to send and receive requested Web pages from a HTTP server.
 
